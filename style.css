@@ -1,11 +1,6 @@
 .container {
     max-width: 960px;
   }
-  
-  /*
-   * Custom translucent site header
-   */
-  
   .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -19,18 +14,40 @@
     color: #fff;
     text-decoration: none;
   }
-  
+  #headline1
+  {
+      color: white;
+  }
+  #headline2
+  {
+      color: black;
+      text-align: left;
+  }
   #backGround
   {
       color: white;
       background-image: url('images/back2.jpg');
-      background-size: contain;
-      height: 560px;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
-
+  #card1
+  {
+      max-width: 100%;
+     height: auto;
+  }
+  video
+  {
+    max-width: 100%;
+    height: auto;
+  }
+  #img1
+  {
+    max-width: 100%;
+    height: auto;
+  }
   #textArea
   {
-      padding-top: 7rem;
+      padding-top: 3rem;
   }
   
   .product-device {
